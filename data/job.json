@@ -1,0 +1,14 @@
+{
+  "title": "Data Scientist",
+  "must_have": [
+    "Python",
+    "SQL",
+    "3+ years experience"
+  ],
+  "preferred": [
+    "Spark",
+    "AWS",
+    "Machine Learning",
+    "Airflow"
+  ]
+}
