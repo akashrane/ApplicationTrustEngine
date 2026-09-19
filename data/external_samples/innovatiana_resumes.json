@@ -1,0 +1,12 @@
+[
+  {
+    "id": "inno_0001",
+    "category": "Information Technology",
+    "text": "Christopher Vance\nSenior Solutions Architect | cvance@architect.io | github.com/cvance-arch\n\nSUMMARY\n10+ years designing enterprise distributed architectures and cloud infrastructure.\n\nEXPERIENCE\nPrincipal Architect | Global Cloud Services | 2018-01 to Present\n\u2022 Directed modernization of legacy monolithic services into Kubernetes microservices on AWS.\n\u2022 Reduced cloud compute costs by 28% via automated autoscaling and Spot instances.\n\nEDUCATION\nBS Computer Science, University of California San Diego, 2014\n\nSKILLS\nAWS, Docker, Kubernetes, Python, Java, PostgreSQL, Kafka, Terraform, Linux\n"
+  },
+  {
+    "id": "inno_0002",
+    "category": "Data Science & AI",
+    "text": "Anita Desai\nLead Machine Learning Scientist | adesai@ai-research.org | github.com/adesai-nlp\n\nEXPERIENCE\nLead ML Scientist | DeepTech Labs | 2019-07 to Present\n\u2022 Researched and deployed proprietary multilingual LLM models and RAG retrieval pipelines.\n\u2022 Published 3 papers on hybrid retrieval reranking algorithms.\n\nEDUCATION\nPhD Computer Science, University of Washington, 2019\n\nSKILLS\nPython, PyTorch, Machine Learning, Deep Learning, NLP, LLMs, RAG, Transformers, Docker, SQL\n"
+  }
+]

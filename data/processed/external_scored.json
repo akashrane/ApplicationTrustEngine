@@ -1,0 +1,2651 @@
+{
+  "dataset_source": "all",
+  "job": {
+    "title": "Data Scientist",
+    "must_have": [
+      "Python",
+      "SQL",
+      "3+ years experience"
+    ],
+    "preferred": [
+      "Spark",
+      "AWS",
+      "Machine Learning",
+      "Airflow"
+    ]
+  },
+  "total_ingested": 16,
+  "quadrant_counts": {
+    "A": 0,
+    "B": 7,
+    "C": 9,
+    "D": 0
+  },
+  "candidates": [
+    {
+      "candidate_id": "HUGG-hf_0001",
+      "name": "Alex Chen",
+      "email": "alexchen@gmail.com",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.583951+00:00",
+      "github_username": "alexchen-ml",
+      "portfolio_url": "",
+      "education": {
+        "school": "Columbia University",
+        "degree": "MS",
+        "year": 2020
+      },
+      "experience": [
+        {
+          "company": "Northstar AI",
+          "title": "Senior Data Scientist",
+          "start": "2020-06",
+          "end": "Present",
+          "bullets": [
+            "Designed automated ML decision support pipeline, reducing latency by 45%. Led migration to AWS EMR Spark.",
+            "Collaborated with cross-functional product and engineering teams on production release schedules.",
+            "Mentored junior engineers and instituted automated testing standards."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Airflow",
+        "Machine Learning",
+        "Pandas",
+        "PyTorch",
+        "Python",
+        "SQL",
+        "Spark",
+        "scikit-learn"
+      ],
+      "summary": "Results-driven Senior Data Scientist with extensive experience architecting production data systems and ML pipelines.",
+      "text": "Alex Chen\nSenior Data Scientist | alexchen@gmail.com | github.com/alexchen-ml\n\nSUMMARY\nResults-driven Senior Data Scientist with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nSenior Data Scientist | Northstar AI | 2020-06 to Present\n\u2022 Designed automated ML decision support pipeline, reducing latency by 45%. Led migration to AWS EMR Spark.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nMS Data Science, Columbia University, 2020\n\nSKILLS\nPython, SQL, Spark, AWS, Machine Learning, PyTorch, scikit-learn, Airflow, Pandas",
+      "pdf_path": null,
+      "seed_tag": "dataset_huggingface",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "huggingface",
+      "dataset_category": "Data Science",
+      "Q": 77,
+      "P": 0,
+      "A": 6,
+      "C": 98,
+      "x": 16.064971923828125,
+      "y": 3.5008997917175293,
+      "cluster": 1,
+      "cluster_name": "Cluster A \u00b7 shared portfolio",
+      "nn_max_similarity": 0.561,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "Recruiter cluster review",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": true
+        }
+      ],
+      "claims": [
+        {
+          "claim": "6+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Airflow",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Pandas",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PyTorch",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spark",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: scikit-learn",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: MS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2020-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "HUGG-hf_0002",
+      "name": "Samantha Taylor",
+      "email": "samanthat@outlook.com",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.585383+00:00",
+      "github_username": "staylor-data",
+      "portfolio_url": "",
+      "education": {
+        "school": "Not listed",
+        "degree": "BS",
+        "year": 2019
+      },
+      "experience": [
+        {
+          "company": "Apex Logistics",
+          "title": "Lead Data Engineer",
+          "start": "2019-08",
+          "end": "Present",
+          "bullets": [
+            "Architected streaming ETL platform processing 50M events/day using Apache Kafka and Airflow.",
+            "Collaborated with cross-functional product and engineering teams on production release schedules.",
+            "Mentored junior engineers and instituted automated testing standards."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Airflow",
+        "Kafka",
+        "PostgreSQL",
+        "Python",
+        "SQL",
+        "Snowflake",
+        "Spark",
+        "dbt"
+      ],
+      "summary": "Results-driven Data Engineer with extensive experience architecting production data systems and ML pipelines.",
+      "text": "Samantha Taylor\nData Engineer | samanthat@outlook.com | github.com/staylor-data\n\nSUMMARY\nResults-driven Data Engineer with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nLead Data Engineer | Apex Logistics | 2019-08 to Present\n\u2022 Architected streaming ETL platform processing 50M events/day using Apache Kafka and Airflow.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nBS Computer Science, Georgia Tech, 2019\n\nSKILLS\nPython, SQL, Airflow, Spark, PostgreSQL, dbt, Snowflake, Kafka, AWS",
+      "pdf_path": null,
+      "seed_tag": "dataset_huggingface",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "huggingface",
+      "dataset_category": "Data Science",
+      "Q": 69,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 15.989337921142578,
+      "y": 4.3054656982421875,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.523,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": true
+        }
+      ],
+      "claims": [
+        {
+          "claim": "7+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Airflow",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kafka",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PostgreSQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Snowflake",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spark",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: dbt",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2019-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "HUGG-hf_0003",
+      "name": "David Miller",
+      "email": "dmiller@ai.io",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.586689+00:00",
+      "github_username": "dmiller-models",
+      "portfolio_url": "",
+      "education": {
+        "school": "Carnegie Mellon University",
+        "degree": "MS",
+        "year": 2021
+      },
+      "experience": [
+        {
+          "company": "Cognitive Solutions",
+          "title": "ML Engineer",
+          "start": "2021-05",
+          "end": "2024-11",
+          "bullets": [
+            "Developed LLM-powered semantic search and hybrid reranker achieving 0.91 MRR.",
+            "Collaborated with cross-functional product and engineering teams on production release schedules.",
+            "Mentored junior engineers and instituted automated testing standards."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "Kubernetes",
+        "Machine Learning",
+        "PyTorch",
+        "Python",
+        "SQL",
+        "TensorFlow"
+      ],
+      "summary": "Results-driven Machine Learning Engineer with extensive experience architecting production data systems and ML pipelines.",
+      "text": "David Miller\nMachine Learning Engineer | dmiller@ai.io | github.com/dmiller-models\n\nSUMMARY\nResults-driven Machine Learning Engineer with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nML Engineer | Cognitive Solutions | 2021-05 to 2024-11\n\u2022 Developed LLM-powered semantic search and hybrid reranker achieving 0.91 MRR.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nMS Computer Science, Carnegie Mellon University, 2021\n\nSKILLS\nPython, PyTorch, TensorFlow, FastAPI, Docker, Kubernetes, AWS, Machine Learning, SQL",
+      "pdf_path": null,
+      "seed_tag": "dataset_huggingface",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "huggingface",
+      "dataset_category": "Data Science",
+      "Q": 85,
+      "P": 0,
+      "A": 6,
+      "C": 98,
+      "x": 16.198945999145508,
+      "y": 3.610186815261841,
+      "cluster": 1,
+      "cluster_name": "Cluster A \u00b7 shared portfolio",
+      "nn_max_similarity": 0.506,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "Recruiter cluster review",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "5+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: FastAPI",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kubernetes",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PyTorch",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: TensorFlow",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: MS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2021-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "HUGG-hf_0004",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@nyu.edu",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.587928+00:00",
+      "github_username": "",
+      "portfolio_url": "",
+      "education": {
+        "school": "New York University",
+        "degree": "PhD",
+        "year": 2018
+      },
+      "experience": [
+        {
+          "company": "Citadel Trading",
+          "title": "Quantitative Researcher",
+          "start": "2018-09",
+          "end": "2024-05",
+          "bullets": [
+            "Conducted time-series statistical modeling and volatility estimation algorithms.",
+            "Collaborated with cross-functional product and engineering teams on production release schedules.",
+            "Mentored junior engineers and instituted automated testing standards."
+          ]
+        }
+      ],
+      "skills": [
+        "A/B Testing",
+        "Machine Learning",
+        "NumPy",
+        "Pandas",
+        "Python",
+        "R",
+        "SQL",
+        "Statistics",
+        "Tableau"
+      ],
+      "summary": "Results-driven Quantitative Analyst with extensive experience architecting production data systems and ML pipelines.",
+      "text": "Elena Rostova\nQuantitative Analyst | elena.rostova@nyu.edu | \n\nSUMMARY\nResults-driven Quantitative Analyst with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nQuantitative Researcher | Citadel Trading | 2018-09 to 2024-05\n\u2022 Conducted time-series statistical modeling and volatility estimation algorithms.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nPhD Mathematics, New York University, 2018\n\nSKILLS\nPython, R, SQL, Pandas, NumPy, Statistics, A/B Testing, Tableau, Machine Learning",
+      "pdf_path": null,
+      "seed_tag": "dataset_huggingface",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "huggingface",
+      "dataset_category": "Data Science",
+      "Q": 78,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 15.676953315734863,
+      "y": 4.215151786804199,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.681,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "8+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: A/B Testing",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: NumPy",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Pandas",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: R",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Statistics",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Tableau",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: PhD",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2018-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "HUGG-hf_0005",
+      "name": "Marcus Johnson",
+      "email": "mjohnson@dev.net",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.589110+00:00",
+      "github_username": "marcusj-ai",
+      "portfolio_url": "",
+      "education": {
+        "school": "Not listed",
+        "degree": "BS",
+        "year": 2020
+      },
+      "experience": [
+        {
+          "company": "Vanguard Tech",
+          "title": "Full Stack AI Engineer",
+          "start": "2020-07",
+          "end": "Present",
+          "bullets": [
+            "Built responsive React dashboards and FastAPI backend services integrated with OpenAI endpoints.",
+            "Collaborated with cross-functional product and engineering teams on production release schedules.",
+            "Mentored junior engineers and instituted automated testing standards."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Docker",
+        "FastAPI",
+        "LLMs",
+        "LangChain",
+        "PostgreSQL",
+        "Python",
+        "React",
+        "TypeScript"
+      ],
+      "summary": "Results-driven Full Stack AI Engineer with extensive experience architecting production data systems and ML pipelines.",
+      "text": "Marcus Johnson\nFull Stack AI Engineer | mjohnson@dev.net | github.com/marcusj-ai\n\nSUMMARY\nResults-driven Full Stack AI Engineer with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nFull Stack AI Engineer | Vanguard Tech | 2020-07 to Present\n\u2022 Built responsive React dashboards and FastAPI backend services integrated with OpenAI endpoints.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nBS Electrical Engineering & Computer Science, UC Berkeley, 2020\n\nSKILLS\nPython, TypeScript, React, FastAPI, PostgreSQL, Docker, AWS, LLMs, LangChain",
+      "pdf_path": null,
+      "seed_tag": "dataset_huggingface",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "huggingface",
+      "dataset_category": "Data Science",
+      "Q": 54,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 2.1533308029174805,
+      "y": 23.275545120239258,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.541,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "6+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: FastAPI",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: LLMs",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: LangChain",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PostgreSQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: React",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: TypeScript",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2020-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "RESU-ra_0001",
+      "name": "Jessica Wu",
+      "email": "jessica.wu@datascience.io",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.590202+00:00",
+      "github_username": "jessicawu-ds",
+      "portfolio_url": "",
+      "education": {
+        "school": "Stanford University",
+        "degree": "MS",
+        "year": 2019
+      },
+      "experience": [
+        {
+          "company": "Vortex Analytics",
+          "title": "Senior Data Scientist",
+          "start": "2019-09",
+          "end": "Present",
+          "bullets": [
+            "Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.",
+            "Supervised technical implementations and cross-departmental compliance."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Airflow",
+        "Machine Learning",
+        "Pandas",
+        "Python",
+        "SQL",
+        "Spark",
+        "Statistics",
+        "scikit-learn"
+      ],
+      "summary": "Parsed locally from resumeatlas_ra_0001",
+      "text": "Jessica Wu\nData Science Professional | jessica.wu@datascience.io | github.com/jessicawu-ds\n\nPROFESSIONAL EXPERIENCE\nSenior Data Scientist | Vortex Analytics | 2019-09 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nMS Statistics, Stanford University, 2019\n\nCORE COMPETENCIES & SKILLS\nPython, SQL, scikit-learn, Pandas, AWS, Spark, Airflow, Machine Learning",
+      "pdf_path": null,
+      "seed_tag": "dataset_resumeatlas",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "resumeatlas",
+      "dataset_category": "Data Science",
+      "Q": 77,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 19.88737678527832,
+      "y": 13.69749641418457,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.586,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": true
+        }
+      ],
+      "claims": [
+        {
+          "claim": "7+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Airflow",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Pandas",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spark",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Statistics",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: scikit-learn",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: MS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2019-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "RESU-ra_0002",
+      "name": "Robert Kowalski",
+      "email": "rkowalski@enterprise.com",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.591104+00:00",
+      "github_username": "rkowalski-java",
+      "portfolio_url": "",
+      "education": {
+        "school": "University of Illinois",
+        "degree": "BS",
+        "year": 2018
+      },
+      "experience": [
+        {
+          "company": "Global Finance Inc",
+          "title": "Lead Java Developer",
+          "start": "2018-06",
+          "end": "Present",
+          "bullets": [
+            "Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.",
+            "Supervised technical implementations and cross-departmental compliance."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Docker",
+        "Git",
+        "Java",
+        "Kafka",
+        "Kubernetes",
+        "PostgreSQL",
+        "Spring",
+        "Spring Boot"
+      ],
+      "summary": "Parsed locally from resumeatlas_ra_0002",
+      "text": "Robert Kowalski\nJava Developer Professional | rkowalski@enterprise.com | github.com/rkowalski-java\n\nPROFESSIONAL EXPERIENCE\nLead Java Developer | Global Finance Inc | 2018-06 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nBS Computer Engineering, University of Illinois, 2018\n\nCORE COMPETENCIES & SKILLS\nJava, Spring Boot, PostgreSQL, Docker, Kubernetes, Kafka, AWS, Git",
+      "pdf_path": null,
+      "seed_tag": "dataset_resumeatlas",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "resumeatlas",
+      "dataset_category": "Java Developer",
+      "Q": 31,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 5.16212797164917,
+      "y": 17.780759811401367,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.429,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "8+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Git",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Java",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kafka",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kubernetes",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PostgreSQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spring",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spring Boot",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2018-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "RESU-ra_0003",
+      "name": "Priya Sharma",
+      "email": "priyasharma@cloudops.org",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.592010+00:00",
+      "github_username": "priyasharma-ops",
+      "portfolio_url": "",
+      "education": {
+        "school": "Purdue University",
+        "degree": "BS",
+        "year": 2020
+      },
+      "experience": [
+        {
+          "company": "CloudScale Systems",
+          "title": "DevOps Engineer",
+          "start": "2020-05",
+          "end": "2024-10",
+          "bullets": [
+            "Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.",
+            "Supervised technical implementations and cross-departmental compliance."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Bash",
+        "CI/CD",
+        "Docker",
+        "GitHub Actions",
+        "Kubernetes",
+        "Linux",
+        "Python",
+        "Terraform"
+      ],
+      "summary": "Parsed locally from resumeatlas_ra_0003",
+      "text": "Priya Sharma\nDevOps Engineer Professional | priyasharma@cloudops.org | github.com/priyasharma-ops\n\nPROFESSIONAL EXPERIENCE\nDevOps Engineer | CloudScale Systems | 2020-05 to 2024-10\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nBS Information Technology, Purdue University, 2020\n\nCORE COMPETENCIES & SKILLS\nAWS, Terraform, Kubernetes, Docker, Linux, Bash, CI/CD, GitHub Actions, Python",
+      "pdf_path": null,
+      "seed_tag": "dataset_resumeatlas",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "resumeatlas",
+      "dataset_category": "DevOps Engineer",
+      "Q": 54,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 8.654013633728027,
+      "y": 14.690169334411621,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.537,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "6+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Bash",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: CI/CD",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: GitHub Actions",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kubernetes",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Linux",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Terraform",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2020-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "RESU-ra_0004",
+      "name": "Karen Robinson",
+      "email": "karen.robinson@talentcorp.com",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.592875+00:00",
+      "github_username": "",
+      "portfolio_url": "",
+      "education": {
+        "school": "Michigan State University",
+        "degree": "BA",
+        "year": 2016
+      },
+      "experience": [
+        {
+          "company": "Talent Bridge",
+          "title": "HR Business Partner",
+          "start": "2016-08",
+          "end": "Present",
+          "bullets": [
+            "Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.",
+            "Supervised technical implementations and cross-departmental compliance."
+          ]
+        }
+      ],
+      "skills": [
+        "Agile",
+        "Excel",
+        "Jira",
+        "Tableau"
+      ],
+      "summary": "Parsed locally from resumeatlas_ra_0004",
+      "text": "Karen Robinson\nHR Professional | karen.robinson@talentcorp.com | \n\nPROFESSIONAL EXPERIENCE\nHR Business Partner | Talent Bridge | 2016-08 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nBA Human Resources, Michigan State University, 2016\n\nCORE COMPETENCIES & SKILLS\nExcel, Jira, Agile, Tableau",
+      "pdf_path": null,
+      "seed_tag": "dataset_resumeatlas",
+      "parser_tier": "local",
+      "parser_confidence": 80.0,
+      "dataset_source": "resumeatlas",
+      "dataset_category": "HR",
+      "Q": 0,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 20.035491943359375,
+      "y": 13.81689739227295,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.481,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "10+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: Agile",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Excel",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Jira",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Tableau",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BA",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2016-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "RESU-ra_0005",
+      "name": "Thomas Sterling",
+      "email": "tsterling@lawpartners.com",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.594140+00:00",
+      "github_username": "",
+      "portfolio_url": "",
+      "education": {
+        "school": "Georgetown University",
+        "degree": "Not listed",
+        "year": 2015
+      },
+      "experience": [
+        {
+          "company": "Sterling & Associates",
+          "title": "Senior Associate Counsel",
+          "start": "2015-09",
+          "end": "Present",
+          "bullets": [
+            "Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.",
+            "Supervised technical implementations and cross-departmental compliance."
+          ]
+        }
+      ],
+      "skills": [
+        "Agile",
+        "Excel"
+      ],
+      "summary": "Parsed locally from resumeatlas_ra_0005",
+      "text": "Thomas Sterling\nAdvocate / Legal Professional | tsterling@lawpartners.com | \n\nPROFESSIONAL EXPERIENCE\nSenior Associate Counsel | Sterling & Associates | 2015-09 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nJD Law, Georgetown University, 2015\n\nCORE COMPETENCIES & SKILLS\nExcel, Agile",
+      "pdf_path": null,
+      "seed_tag": "dataset_resumeatlas",
+      "parser_tier": "local",
+      "parser_confidence": 80.0,
+      "dataset_source": "resumeatlas",
+      "dataset_category": "Advocate / Legal",
+      "Q": 0,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 19.423248291015625,
+      "y": 13.956817626953125,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.494,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "11+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: Agile",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Excel",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: Not listed",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2015-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "KAGG-kg_0001",
+      "name": "Daniel Craig",
+      "email": "",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.599632+00:00",
+      "github_username": "dcraig-ds",
+      "portfolio_url": "",
+      "education": {
+        "school": "Not listed",
+        "degree": "MS",
+        "year": 2019
+      },
+      "experience": [
+        {
+          "company": "Zenith Health",
+          "title": "Data Scientist",
+          "start": "2019-06",
+          "end": "2024-12",
+          "bullets": [
+            "Delivered mission-critical scalable platform infrastructure.",
+            "Optimized pipeline throughput by 35% and reduced operational overhead."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Airflow",
+        "Machine Learning",
+        "Python",
+        "SQL",
+        "Spark"
+      ],
+      "summary": "Parsed locally from Daniel_Craig.pdf",
+      "text": "Daniel Craig\nRole: Data Scientist | github.com/dcraig-ds\nEXPERIENCE\nData Scientist | Zenith Health | 2019-06 to 2024-12\n\u2022 Delivered mission-critical scalable platform infrastructure.\n\u2022 Optimized pipeline throughput by 35% and reduced operational overhead.\nEDUCATION\nMS Data Science, MIT, 2019\nSKILLS\nPython, SQL, Spark, AWS, Machine Learning, Airflow",
+      "pdf_path": "/home/akashrane/Documents/Projects/ApplicationTrust/data/external_samples/kaggle_pdfs/DATA_SCIENCE/Daniel_Craig.pdf",
+      "seed_tag": "dataset_kaggle",
+      "parser_tier": "local",
+      "parser_confidence": 70.0,
+      "dataset_source": "kaggle",
+      "dataset_category": "DATA_SCIENCE",
+      "Q": 100,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 17.303190231323242,
+      "y": -4.8689985275268555,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.565,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": true
+        }
+      ],
+      "claims": [
+        {
+          "claim": "7+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Airflow",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spark",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: MS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2019-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "KAGG-kg_0002",
+      "name": "Sophia Martinez",
+      "email": "",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.602035+00:00",
+      "github_username": "smartinez-ai",
+      "portfolio_url": "",
+      "education": {
+        "school": "Not listed",
+        "degree": "BS",
+        "year": 2021
+      },
+      "experience": [
+        {
+          "company": "Apex Media",
+          "title": "Data Scientist",
+          "start": "2021-08",
+          "end": "2024-12",
+          "bullets": [
+            "Delivered mission-critical scalable platform infrastructure.",
+            "Optimized pipeline throughput by 35% and reduced operational overhead."
+          ]
+        }
+      ],
+      "skills": [
+        "Machine Learning",
+        "Pandas",
+        "Python",
+        "SQL",
+        "scikit-learn"
+      ],
+      "summary": "Parsed locally from Sophia_Martinez.pdf",
+      "text": "Sophia Martinez\nRole: Data Scientist | github.com/smartinez-ai\nEXPERIENCE\nData Scientist | Apex Media | 2021-08 to 2024-12\n\u2022 Delivered mission-critical scalable platform infrastructure.\n\u2022 Optimized pipeline throughput by 35% and reduced operational overhead.\nEDUCATION\nBS Computer Science, UT Austin, 2021\nSKILLS\nPython, SQL, Machine Learning, Pandas, scikit-learn",
+      "pdf_path": "/home/akashrane/Documents/Projects/ApplicationTrust/data/external_samples/kaggle_pdfs/DATA_SCIENCE/Sophia_Martinez.pdf",
+      "seed_tag": "dataset_kaggle",
+      "parser_tier": "local",
+      "parser_confidence": 70.0,
+      "dataset_source": "kaggle",
+      "dataset_category": "DATA_SCIENCE",
+      "Q": 78,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 9.675371170043945,
+      "y": -0.7575815320014954,
+      "cluster": -1,
+      "cluster_name": "External Applicant",
+      "nn_max_similarity": 0.498,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "5+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Pandas",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: scikit-learn",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2021-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "KAGG-kg_0003",
+      "name": "Michael Chang",
+      "email": "",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.604248+00:00",
+      "github_username": "mchang-backend",
+      "portfolio_url": "",
+      "education": {
+        "school": "Not listed",
+        "degree": "BS",
+        "year": 2017
+      },
+      "experience": [
+        {
+          "company": "Acme Retail",
+          "title": "Senior Backend Engineer",
+          "start": "2017-05",
+          "end": "2024-12",
+          "bullets": [
+            "Delivered mission-critical scalable platform infrastructure.",
+            "Optimized pipeline throughput by 35% and reduced operational overhead."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Docker",
+        "Git",
+        "Java",
+        "PostgreSQL",
+        "Spring",
+        "Spring Boot"
+      ],
+      "summary": "Parsed locally from Michael_Chang.pdf",
+      "text": "Michael Chang\nRole: Senior Backend Engineer | github.com/mchang-backend\nEXPERIENCE\nSenior Backend Engineer | Acme Retail | 2017-05 to 2024-12\n\u2022 Delivered mission-critical scalable platform infrastructure.\n\u2022 Optimized pipeline throughput by 35% and reduced operational overhead.\nEDUCATION\nBS Computer Science, UW Madison, 2017\nSKILLS\nJava, Spring Boot, PostgreSQL, Docker, AWS, Git",
+      "pdf_path": "/home/akashrane/Documents/Projects/ApplicationTrust/data/external_samples/kaggle_pdfs/JAVA_DEVELOPER/Michael_Chang.pdf",
+      "seed_tag": "dataset_kaggle",
+      "parser_tier": "local",
+      "parser_confidence": 70.0,
+      "dataset_source": "kaggle",
+      "dataset_category": "JAVA_DEVELOPER",
+      "Q": 54,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 9.47249698638916,
+      "y": 14.404542922973633,
+      "cluster": 0,
+      "cluster_name": "Natural cohort 0",
+      "nn_max_similarity": 0.587,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "9+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Git",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Java",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PostgreSQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spring",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Spring Boot",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2017-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "KAGG-kg_0004",
+      "name": "Sarah Jenkins",
+      "email": "",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.606656+00:00",
+      "github_username": "sjenkins-cloud",
+      "portfolio_url": "",
+      "education": {
+        "school": "Not listed",
+        "degree": "BS",
+        "year": 2020
+      },
+      "experience": [
+        {
+          "company": "Nexus Infra",
+          "title": "Cloud DevOps Engineer",
+          "start": "2020-06",
+          "end": "2024-12",
+          "bullets": [
+            "Delivered mission-critical scalable platform infrastructure.",
+            "Optimized pipeline throughput by 35% and reduced operational overhead."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Linux",
+        "Python",
+        "Terraform"
+      ],
+      "summary": "Parsed locally from Sarah_Jenkins.pdf",
+      "text": "Sarah Jenkins\nRole: Cloud DevOps Engineer | github.com/sjenkins-cloud\nEXPERIENCE\nCloud DevOps Engineer | Nexus Infra | 2020-06 to 2024-12\n\u2022 Delivered mission-critical scalable platform infrastructure.\n\u2022 Optimized pipeline throughput by 35% and reduced operational overhead.\nEDUCATION\nBS IT, Penn State, 2020\nSKILLS\nAWS, Docker, Kubernetes, Terraform, Linux, Python",
+      "pdf_path": "/home/akashrane/Documents/Projects/ApplicationTrust/data/external_samples/kaggle_pdfs/DEVOPS/Sarah_Jenkins.pdf",
+      "seed_tag": "dataset_kaggle",
+      "parser_tier": "local",
+      "parser_confidence": 70.0,
+      "dataset_source": "kaggle",
+      "dataset_category": "DEVOPS",
+      "Q": 54,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": 1.9811102151870728,
+      "y": 23.404699325561523,
+      "cluster": 3,
+      "cluster_name": "Natural cohort 3",
+      "nn_max_similarity": 0.541,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "6+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Jenkins",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kubernetes",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Linux",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Terraform",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2020-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "INNO-inno_000",
+      "name": "Christopher Vance",
+      "email": "cvance@architect.io",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.607821+00:00",
+      "github_username": "cvance-arch",
+      "portfolio_url": "",
+      "education": {
+        "school": "University of California San Diego",
+        "degree": "BS",
+        "year": 2014
+      },
+      "experience": [
+        {
+          "company": "Global Cloud Services",
+          "title": "Principal Architect",
+          "start": "2018-01",
+          "end": "Present",
+          "bullets": [
+            "Directed modernization of legacy monolithic services into Kubernetes microservices on AWS.",
+            "Reduced cloud compute costs by 28% via automated autoscaling and Spot instances."
+          ]
+        }
+      ],
+      "skills": [
+        "AWS",
+        "Docker",
+        "Java",
+        "Kafka",
+        "Kubernetes",
+        "Linux",
+        "PostgreSQL",
+        "Python",
+        "Terraform"
+      ],
+      "summary": "10+ years designing enterprise distributed architectures and cloud infrastructure.",
+      "text": "Christopher Vance\nSenior Solutions Architect | cvance@architect.io | github.com/cvance-arch\n\nSUMMARY\n10+ years designing enterprise distributed architectures and cloud infrastructure.\n\nEXPERIENCE\nPrincipal Architect | Global Cloud Services | 2018-01 to Present\n\u2022 Directed modernization of legacy monolithic services into Kubernetes microservices on AWS.\n\u2022 Reduced cloud compute costs by 28% via automated autoscaling and Spot instances.\n\nEDUCATION\nBS Computer Science, University of California San Diego, 2014\n\nSKILLS\nAWS, Docker, Kubernetes, Python, Java, PostgreSQL, Kafka, Terraform, Linux",
+      "pdf_path": null,
+      "seed_tag": "dataset_innovatiana",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "innovatiana",
+      "dataset_category": "Information Technology",
+      "Q": 78,
+      "P": 0,
+      "A": 6,
+      "C": 0,
+      "x": -9.215919494628906,
+      "y": 10.51699447631836,
+      "cluster": 5,
+      "cluster_name": "Natural cohort 5",
+      "nn_max_similarity": 0.6,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "B",
+      "verification_action": "No action",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "8+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: AWS",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Java",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kafka",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Kubernetes",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Linux",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PostgreSQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Terraform",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: BS",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2018-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    },
+    {
+      "candidate_id": "INNO-inno_000",
+      "name": "Anita Desai",
+      "email": "adesai@ai-research.org",
+      "phone": "",
+      "submitted_at": "2026-09-19T19:16:19.608675+00:00",
+      "github_username": "adesai-nlp",
+      "portfolio_url": "",
+      "education": {
+        "school": "University of Washington",
+        "degree": "PhD",
+        "year": 2019
+      },
+      "experience": [
+        {
+          "company": "DeepTech Labs",
+          "title": "Lead ML Scientist",
+          "start": "2019-07",
+          "end": "Present",
+          "bullets": [
+            "Researched and deployed proprietary multilingual LLM models and RAG retrieval pipelines.",
+            "Published 3 papers on hybrid retrieval reranking algorithms."
+          ]
+        }
+      ],
+      "skills": [
+        "Deep Learning",
+        "Docker",
+        "LLMs",
+        "Machine Learning",
+        "NLP",
+        "PyTorch",
+        "Python",
+        "RAG",
+        "SQL",
+        "Transformers"
+      ],
+      "summary": "Parsed locally from innovatiana_inno_0002",
+      "text": "Anita Desai\nLead Machine Learning Scientist | adesai@ai-research.org | github.com/adesai-nlp\n\nEXPERIENCE\nLead ML Scientist | DeepTech Labs | 2019-07 to Present\n\u2022 Researched and deployed proprietary multilingual LLM models and RAG retrieval pipelines.\n\u2022 Published 3 papers on hybrid retrieval reranking algorithms.\n\nEDUCATION\nPhD Computer Science, University of Washington, 2019\n\nSKILLS\nPython, PyTorch, Machine Learning, Deep Learning, NLP, LLMs, RAG, Transformers, Docker, SQL",
+      "pdf_path": null,
+      "seed_tag": "dataset_innovatiana",
+      "parser_tier": "local",
+      "parser_confidence": 90.0,
+      "dataset_source": "innovatiana",
+      "dataset_category": "Data Science & AI",
+      "Q": 54,
+      "P": 0,
+      "A": 6,
+      "C": 98,
+      "x": 15.476122856140137,
+      "y": 4.030999183654785,
+      "cluster": 1,
+      "cluster_name": "Cluster A \u00b7 shared portfolio",
+      "nn_max_similarity": 0.459,
+      "trust_confidence": "UNKNOWN",
+      "trust_score": 50,
+      "quadrant": "C",
+      "verification_action": "Recruiter cluster review",
+      "requirements": [
+        {
+          "requirement": "Python",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "SQL",
+          "type": "must-have",
+          "met": true
+        },
+        {
+          "requirement": "3+ years experience",
+          "type": "must-have",
+          "met": false
+        },
+        {
+          "requirement": "Spark",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "AWS",
+          "type": "preferred",
+          "met": false
+        },
+        {
+          "requirement": "Machine Learning",
+          "type": "preferred",
+          "met": true
+        },
+        {
+          "requirement": "Airflow",
+          "type": "preferred",
+          "met": false
+        }
+      ],
+      "claims": [
+        {
+          "claim": "7+ years of experience",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "GitHub link",
+          "status": "unverified",
+          "evidence": "No GitHub username provided"
+        },
+        {
+          "claim": "Skill: Deep Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Docker",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: LLMs",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Machine Learning",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: NLP",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: PyTorch",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Python",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: RAG",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: SQL",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Skill: Transformers",
+          "status": "unverified",
+          "evidence": "No linked GitHub history; absence is not negative evidence"
+        },
+        {
+          "claim": "Degree: PhD",
+          "status": "unverified",
+          "evidence": "Education verification was not requested for this prototype"
+        }
+      ],
+      "github_timeline": [
+        {
+          "event": "Claimed experience begins",
+          "date": "2019-01-01",
+          "kind": "claim"
+        }
+      ],
+      "github_account_age_days": null,
+      "contradiction_count": 0,
+      "hidden_spans": [],
+      "injection_detected": false,
+      "security_events": [],
+      "duplicate_of": null,
+      "status": "active",
+      "priority_rank": null
+    }
+  ]
+}

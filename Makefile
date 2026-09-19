@@ -18,4 +18,10 @@ pipeline:
 app:
 	$(PYTHON) -m streamlit run app.py
 
-all: data pipeline
+test-datasets:
+	$(PYTHON) test_datasets.py --source all --limit 20
+
+benchmark-parser:
+	$(PYTHON) test_datasets.py --source all --limit 50
+
+all: data pipeline test-datasets

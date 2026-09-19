@@ -1,0 +1,27 @@
+[
+  {
+    "id": "hf_0001",
+    "text": "Alex Chen\nSenior Data Scientist | alexchen@gmail.com | github.com/alexchen-ml\n\nSUMMARY\nResults-driven Senior Data Scientist with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nSenior Data Scientist | Northstar AI | 2020-06 to Present\n\u2022 Designed automated ML decision support pipeline, reducing latency by 45%. Led migration to AWS EMR Spark.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nMS Data Science, Columbia University, 2020\n\nSKILLS\nPython, SQL, Spark, AWS, Machine Learning, PyTorch, scikit-learn, Airflow, Pandas\n",
+    "category": "Data Science"
+  },
+  {
+    "id": "hf_0002",
+    "text": "Samantha Taylor\nData Engineer | samanthat@outlook.com | github.com/staylor-data\n\nSUMMARY\nResults-driven Data Engineer with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nLead Data Engineer | Apex Logistics | 2019-08 to Present\n\u2022 Architected streaming ETL platform processing 50M events/day using Apache Kafka and Airflow.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nBS Computer Science, Georgia Tech, 2019\n\nSKILLS\nPython, SQL, Airflow, Spark, PostgreSQL, dbt, Snowflake, Kafka, AWS\n",
+    "category": "Data Science"
+  },
+  {
+    "id": "hf_0003",
+    "text": "David Miller\nMachine Learning Engineer | dmiller@ai.io | github.com/dmiller-models\n\nSUMMARY\nResults-driven Machine Learning Engineer with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nML Engineer | Cognitive Solutions | 2021-05 to 2024-11\n\u2022 Developed LLM-powered semantic search and hybrid reranker achieving 0.91 MRR.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nMS Computer Science, Carnegie Mellon University, 2021\n\nSKILLS\nPython, PyTorch, TensorFlow, FastAPI, Docker, Kubernetes, AWS, Machine Learning, SQL\n",
+    "category": "Data Science"
+  },
+  {
+    "id": "hf_0004",
+    "text": "Elena Rostova\nQuantitative Analyst | elena.rostova@nyu.edu | \n\nSUMMARY\nResults-driven Quantitative Analyst with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nQuantitative Researcher | Citadel Trading | 2018-09 to 2024-05\n\u2022 Conducted time-series statistical modeling and volatility estimation algorithms.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nPhD Mathematics, New York University, 2018\n\nSKILLS\nPython, R, SQL, Pandas, NumPy, Statistics, A/B Testing, Tableau, Machine Learning\n",
+    "category": "Data Science"
+  },
+  {
+    "id": "hf_0005",
+    "text": "Marcus Johnson\nFull Stack AI Engineer | mjohnson@dev.net | github.com/marcusj-ai\n\nSUMMARY\nResults-driven Full Stack AI Engineer with extensive experience architecting production data systems and ML pipelines.\n\nEXPERIENCE\nFull Stack AI Engineer | Vanguard Tech | 2020-07 to Present\n\u2022 Built responsive React dashboards and FastAPI backend services integrated with OpenAI endpoints.\n\u2022 Collaborated with cross-functional product and engineering teams on production release schedules.\n\u2022 Mentored junior engineers and instituted automated testing standards.\n\nEDUCATION\nBS Electrical Engineering & Computer Science, UC Berkeley, 2020\n\nSKILLS\nPython, TypeScript, React, FastAPI, PostgreSQL, Docker, AWS, LLMs, LangChain\n",
+    "category": "Data Science"
+  }
+]

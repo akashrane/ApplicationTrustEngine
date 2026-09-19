@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ra_0001",
+    "text": "Jessica Wu\nData Science Professional | jessica.wu@datascience.io | github.com/jessicawu-ds\n\nPROFESSIONAL EXPERIENCE\nSenior Data Scientist | Vortex Analytics | 2019-09 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nMS Statistics, Stanford University, 2019\n\nCORE COMPETENCIES & SKILLS\nPython, SQL, scikit-learn, Pandas, AWS, Spark, Airflow, Machine Learning\n",
+    "category": "Data Science"
+  },
+  {
+    "id": "ra_0002",
+    "text": "Robert Kowalski\nJava Developer Professional | rkowalski@enterprise.com | github.com/rkowalski-java\n\nPROFESSIONAL EXPERIENCE\nLead Java Developer | Global Finance Inc | 2018-06 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nBS Computer Engineering, University of Illinois, 2018\n\nCORE COMPETENCIES & SKILLS\nJava, Spring Boot, PostgreSQL, Docker, Kubernetes, Kafka, AWS, Git\n",
+    "category": "Java Developer"
+  },
+  {
+    "id": "ra_0003",
+    "text": "Priya Sharma\nDevOps Engineer Professional | priyasharma@cloudops.org | github.com/priyasharma-ops\n\nPROFESSIONAL EXPERIENCE\nDevOps Engineer | CloudScale Systems | 2020-05 to 2024-10\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nBS Information Technology, Purdue University, 2020\n\nCORE COMPETENCIES & SKILLS\nAWS, Terraform, Kubernetes, Docker, Linux, Bash, CI/CD, GitHub Actions, Python\n",
+    "category": "DevOps Engineer"
+  },
+  {
+    "id": "ra_0004",
+    "text": "Karen Robinson\nHR Professional | karen.robinson@talentcorp.com | \n\nPROFESSIONAL EXPERIENCE\nHR Business Partner | Talent Bridge | 2016-08 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nBA Human Resources, Michigan State University, 2016\n\nCORE COMPETENCIES & SKILLS\nExcel, Jira, Agile, Tableau\n",
+    "category": "HR"
+  },
+  {
+    "id": "ra_0005",
+    "text": "Thomas Sterling\nAdvocate / Legal Professional | tsterling@lawpartners.com | \n\nPROFESSIONAL EXPERIENCE\nSenior Associate Counsel | Sterling & Associates | 2015-09 to Present\n\u2022 Spearheaded key departmental initiatives resulting in 30% increase in workflow efficiency.\n\u2022 Supervised technical implementations and cross-departmental compliance.\n\nEDUCATION\nJD Law, Georgetown University, 2015\n\nCORE COMPETENCIES & SKILLS\nExcel, Agile\n",
+    "category": "Advocate / Legal"
+  }
+]
