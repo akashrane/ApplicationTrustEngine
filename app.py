@@ -27,6 +27,7 @@ st.markdown("""
 .challenge {border:1px solid #cbd5e1;border-radius:16px;padding:1rem;background:white}
 mark {background:#fde68a;padding:0 .1rem}.small-note{color:#64748b;font-size:.88rem}
 [data-testid="stMetric"] {background:white;border:1px solid #e2e8f0;padding:1rem;border-radius:14px}
+[data-testid="stMetric"] * {color:var(--ink) !important}
 </style>
 """, unsafe_allow_html=True)
 
@@ -65,7 +66,7 @@ def gauge(value: int, label: str, color: str, inverse: bool = False) -> go.Figur
 def score_row(candidate: dict) -> None:
     cols = st.columns(4)
     for col, key, color, inverse in zip(cols, ["Q", "P", "A", "C"], ["#0f766e", "#2563eb", "#d97706", "#7c3aed"], [False, False, True, True]):
-        col.plotly_chart(gauge(candidate[key], {"Q": "Qualification", "P": "Provenance", "A": "Anomaly", "C": "Coordination"}[key], color, inverse), use_container_width=True, key=f"g-{candidate['candidate_id']}-{key}")
+        col.plotly_chart(gauge(candidate[key], {"Q": "Qualification", "P": "Provenance", "A": "Anomaly", "C": "Coordination"}[key], color, inverse), width="stretch", key=f"g-{candidate['candidate_id']}-{key}")
 
 
 def landscape_figure(extra: dict | None = None) -> go.Figure:
@@ -112,10 +113,10 @@ def candidate_profile(candidate: dict, prefix: str = "profile") -> None:
     tabs = st.tabs(["Role fit", "Claim evidence", "GitHub timeline", "Security", "Trust Challenge"])
     with tabs[0]:
         table = [{"Result": "✓" if r["met"] else "○", "Requirement": r["requirement"], "Type": r["type"]} for r in candidate["requirements"]]
-        st.dataframe(table, hide_index=True, use_container_width=True)
+        st.dataframe(table, hide_index=True, width="stretch")
         st.info(f"Recommended next step: **{candidate['verification_action']}**")
     with tabs[1]:
-        st.dataframe(candidate["claims"], hide_index=True, use_container_width=True,
+        st.dataframe(candidate["claims"], hide_index=True, width="stretch",
                      column_config={"status": st.column_config.TextColumn("Status"), "evidence": st.column_config.TextColumn("Evidence", width="large")})
     with tabs[2]:
         timeline = pd.DataFrame(candidate["github_timeline"])
@@ -125,7 +126,7 @@ def candidate_profile(candidate: dict, prefix: str = "profile") -> None:
             timeline["date"] = pd.to_datetime(timeline["date"])
             fig = px.scatter(timeline, x="date", y="kind", color="kind", hover_name="event", hover_data=["language"] if "language" in timeline else None)
             fig.update_traces(marker={"size": 13}); fig.update_layout(height=330, yaxis_title="Evidence type")
-            st.plotly_chart(fig, use_container_width=True, key=f"timeline-{prefix}-{candidate['candidate_id']}")
+            st.plotly_chart(fig, width="stretch", key=f"timeline-{prefix}-{candidate['candidate_id']}")
     with tabs[3]:
         if not candidate["security_events"]:
             st.success("No document security signal detected.")
@@ -141,7 +142,7 @@ def candidate_profile(candidate: dict, prefix: str = "profile") -> None:
 
 pages = ["Overview", "Applicant Landscape", "Cluster Inspector", "Candidate Profile", "Quadrant View", "Priority Queue", "Analyze a Résumé"]
 st.sidebar.markdown("## ◈ Applicant Trust")
-page = st.sidebar.radio("Workspace", pages)
+page = st.sidebar.radio("Workspace", pages, key="page")
 st.sidebar.caption(f"Offline model · {scored['embedding_method']}")
 
 if page == "Overview":
@@ -152,28 +153,34 @@ if page == "Overview":
         col.metric(label, value)
     left, right = st.columns([3, 2])
     funnel = pd.DataFrame(scored["funnel"])
-    left.plotly_chart(px.funnel(funnel, x="value", y="stage", color_discrete_sequence=["#0f766e"]), use_container_width=True)
+    left.plotly_chart(px.funnel(funnel, x="value", y="stage", color_discrete_sequence=["#0f766e"]), width="stretch")
     right.subheader("How to read the system")
     right.markdown("**Q** asks whether the résumé meets the role. **P** shows what the linked history supports. **A** ranks unusual signals. **C** describes population-level coordination. They stay separate so reviewers can see why a case needs attention.")
     right.info("Start the demo with Priya Nair for strong supported evidence, then Jordan Reyes for step-up verification.")
 
 elif page == "Applicant Landscape":
     heading("Applicant Landscape", "Patterns become visible when applications are evaluated as a population")
-    st.plotly_chart(landscape_figure(), use_container_width=True)
+    st.plotly_chart(landscape_figure(), width="stretch")
     flagged = [c for c in clusters if c["coordination_score"] >= 55]
     selected = st.selectbox("Inspect a population group", flagged, format_func=lambda c: f"{c['display_name']} · C {c['coordination_score']} · {c['size']} members")
     if selected:
         st.info(selected["summary"])
+        if st.button("Open Cluster Inspector"):
+            st.session_state["selected_cluster"] = selected["cluster"]
+            st.session_state["page"] = "Cluster Inspector"
+            st.rerun()
 
 elif page == "Cluster Inspector":
     heading("Cluster Inspector", "Review the shared evidence and keep plausible benign explanations in view")
-    selected = st.selectbox("Population group", clusters, format_func=lambda c: f"{c['display_name']} · {c['size']} members")
+    selected_id = st.session_state.get("selected_cluster")
+    selected_index = next((i for i, c in enumerate(clusters) if c["cluster"] == selected_id), 0)
+    selected = st.selectbox("Population group", clusters, index=selected_index, format_func=lambda c: f"{c['display_name']} · {c['size']} members")
     st.info(selected["summary"])
     features = pd.DataFrame({"Signal": ["Wording similarity", "Shared phrases", "60-minute concentration", "Shared portfolio domain", "Coordination score"],
                              "Value": [selected["mean_similarity"]*100, selected["shared_phrase_ratio"]*100, selected["submission_concentration"]*100, selected["shared_portfolio_domain_ratio"]*100, selected["coordination_score"]]})
-    st.plotly_chart(px.bar(features, x="Value", y="Signal", orientation="h", range_x=[0, 100], color="Value", color_continuous_scale="Teal"), use_container_width=True)
+    st.plotly_chart(px.bar(features, x="Value", y="Signal", orientation="h", range_x=[0, 100], color="Value", color_continuous_scale="Teal"), width="stretch")
     members = [by_id[cid] for cid in selected["member_ids"]]
-    st.dataframe([{"ID": c["candidate_id"], "Name": c["name"], "Q": c["Q"], "P": c["P"], "A": c["A"], "C": c["C"], "Next step": c["verification_action"]} for c in members], hide_index=True, use_container_width=True)
+    st.dataframe([{"ID": c["candidate_id"], "Name": c["name"], "Q": c["Q"], "P": c["P"], "A": c["A"], "C": c["C"], "Next step": c["verification_action"]} for c in members], hide_index=True, width="stretch")
     st.subheader("Shared wording sample")
     cols = st.columns(2)
     for col, candidate in zip(cols, members[:2]):
@@ -190,16 +197,16 @@ elif page == "Candidate Profile":
 
 elif page == "Quadrant View":
     heading("Qualification × Trust", "Qualified candidates with unresolved evidence move to step-up verification—not an automated outcome")
-    st.plotly_chart(quadrant_figure(candidates), use_container_width=True)
+    st.plotly_chart(quadrant_figure(candidates), width="stretch")
 
 elif page == "Priority Queue":
     heading("Priority Queue", "High-qualification, high-confidence applications first; specific doubts get specific checks")
     st.subheader("Top 100 priority review")
     top = [by_id[cid] for cid in scored["top_100"]]
-    st.dataframe([{"Rank": c["priority_rank"], "ID": c["candidate_id"], "Name": c["name"], "Q": c["Q"], "P": c["P"], "A": c["A"], "C": c["C"]} for c in top], hide_index=True, use_container_width=True, height=430)
+    st.dataframe([{"Rank": c["priority_rank"], "ID": c["candidate_id"], "Name": c["name"], "Q": c["Q"], "P": c["P"], "A": c["A"], "C": c["C"]} for c in top], hide_index=True, width="stretch", height=430)
     st.subheader("Step-up verification")
     step = [c for c in candidates if c["quadrant"] == "B"]
-    st.dataframe([{"Action": c["verification_action"], "ID": c["candidate_id"], "Name": c["name"], "Q": c["Q"], "Trust": c["trust_confidence"]} for c in sorted(step, key=lambda c: (c["verification_action"], -c["Q"]))], hide_index=True, use_container_width=True)
+    st.dataframe([{"Action": c["verification_action"], "ID": c["candidate_id"], "Name": c["name"], "Q": c["Q"], "Trust": c["trust_confidence"]} for c in sorted(step, key=lambda c: (c["verification_action"], -c["Q"]))], hide_index=True, width="stretch")
 
 else:
     heading("Analyze a Résumé", "Score one PDF against the offline population; optional parsing and GitHub checks run only here")
@@ -218,9 +225,9 @@ else:
         candidate_profile(result, "live")
         st.subheader("Population context")
         left, right = st.columns(2)
-        left.plotly_chart(landscape_figure(result), use_container_width=True)
-        right.plotly_chart(quadrant_figure(candidates, result), use_container_width=True)
-        st.dataframe(result["similar_candidates"], hide_index=True, use_container_width=True)
+        left.plotly_chart(landscape_figure(result), width="stretch")
+        right.plotly_chart(quadrant_figure(candidates, result), width="stretch")
+        st.dataframe(result["similar_candidates"], hide_index=True, width="stretch")
 
 st.divider()
 st.caption("Signals prioritize human review. No candidate is auto-rejected. Designed as decision support with NYC AEDT-aware transparency and human oversight.")

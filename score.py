@@ -2,10 +2,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, timezone
 from pathlib import Path
-
-import numpy as np
 
 from shared.schema import COORDINATION_FLAG_THRESHOLD, JOB_SPEC, Q_THRESHOLD
 
@@ -127,7 +124,7 @@ def main() -> None:
         {"stage": "Top 100", "value": len(top)},
     ]
     output = {
-        "generated_at": datetime.now(timezone.utc).isoformat(), "job": job, "embedding_method": population_data["embedding_method"],
+        "generated_at": max(c["submitted_at"] for c in resumes), "job": job, "embedding_method": population_data["embedding_method"],
         "candidates": candidates, "top_100": top_ids, "funnel": funnel,
         "counts": {"duplicates_collapsed": sum(bool(c["duplicate_of"]) for c in candidates), "security_events": sum(c["injection_detected"] for c in candidates),
                    "step_up": sum(c["quadrant"] == "B" for c in candidates), "cluster_review": sum(c["C"] >= 70 for c in candidates)},

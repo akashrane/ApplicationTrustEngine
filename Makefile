@@ -1,8 +1,9 @@
 .PHONY: install data pipeline app all
 
-PYTHON ?= python3
+PYTHON ?= .venv/bin/python
 
 install:
+	test -x .venv/bin/python || python3 -m venv .venv
 	$(PYTHON) -m pip install -r requirements.txt
 
 data:
@@ -18,4 +19,3 @@ app:
 	$(PYTHON) -m streamlit run app.py
 
 all: data pipeline
-

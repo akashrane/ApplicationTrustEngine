@@ -28,7 +28,7 @@ ROLE_SKILLS = {
     "Data Analyst": ["SQL", "Python", "Tableau", "Excel", "Power BI", "dbt", "Snowflake", "Statistics", "AWS", "Pandas"],
 }
 VERBS = ["built", "designed", "launched", "optimized", "automated", "refactored", "measured", "deployed", "validated", "scaled", "modeled", "analyzed"]
-OBJECTS = ["forecasting pipelines", "risk models", "customer segmentation", "data quality monitors", "feature stores", "reporting workflows", "recommendation services", "experimentation platforms", "inventory models", "fraud alerts", "API services", "executive dashboards"]
+OBJECTS = ["forecasting pipelines", "risk models", "customer segmentation", "data quality monitors", "feature stores", "reporting workflows", "recommendation services", "experimentation platforms", "inventory models", "risk alerts", "API services", "executive dashboards"]
 OUTCOMES = ["cut latency by 31%", "improved recall by 18%", "saved 22 analyst hours weekly", "raised coverage to 97%", "reduced cloud cost by 24%", "supported 4M monthly events", "shortened releases by 9 days", "increased adoption by 27%", "reduced defects by 36%", "lifted forecast accuracy by 14%"]
 
 A_BULLETS = [

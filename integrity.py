@@ -5,7 +5,7 @@ import json
 import re
 from pathlib import Path
 
-import fitz
+import pymupdf as fitz
 
 ROOT = Path(__file__).parent
 RAW = ROOT / "data/raw/resumes.json"

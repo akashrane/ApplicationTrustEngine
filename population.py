@@ -86,9 +86,10 @@ def cluster_fingerprint(label: int, indices: list[int], candidates: list[dict], 
     domain_ratio = domain_count / len(members)
     all_skills = [s for c in members for s in c.get("skills", [])]
     skill_diversity = len({s.casefold() for s in all_skills}) / max(1, len(all_skills))
-    similarity_signal = float(np.clip((mean_sim - baseline - 0.03) / max(0.01, 0.90 - baseline), 0, 1))
+    similarity_gate = max(baseline + 0.18, 0.72)
+    similarity_signal = float(np.clip((mean_sim - similarity_gate) / max(0.01, 0.95 - similarity_gate), 0, 1))
     score = round(100 * (0.35 * similarity_signal + 0.25 * shared_ratio + 0.25 * time_ratio + 0.15 * domain_ratio))
-    if mean_sim <= baseline + 0.03:
+    if mean_sim <= similarity_gate:
         score = 0
     tags = Counter(c["seed_tag"] for c in members)
     seed = tags.most_common(1)[0][0]

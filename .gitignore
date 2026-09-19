@@ -2,7 +2,5 @@
 .env
 __pycache__/
 *.py[cod]
-.streamlit/
 data/uploads/
 data/raw/github_live/
-
