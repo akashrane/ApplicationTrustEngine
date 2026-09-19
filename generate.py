@@ -65,12 +65,12 @@ def normal_candidate(n: int, tag: str = "normal") -> dict:
         skills = ["Python", "SQL", "Machine Learning", "Spark", "AWS", "Airflow", "Pandas", "PyTorch"]
     bullets = [f"{VERBS[(n+i) % len(VERBS)].title()} {OBJECTS[(n*3+i*5) % len(OBJECTS)]}; {OUTCOMES[(n*7+i*3) % len(OUTCOMES)]}." for i in range(4)]
     summary = f"{role} with {years} years turning complex evidence into practical decisions across {COMPANIES[n % len(COMPANIES)]}."
-    username = "" if n % 5 == 0 else f"{FIRST[n % len(FIRST)].lower()}{LAST[(n*5) % len(LAST)].lower()}{n}"
+    username = "" if tag == "normal" and n % 5 == 0 else f"{FIRST[n % len(FIRST)].lower()}{LAST[(n*5) % len(LAST)].lower()}{n}"
     submitted = BASE + timedelta(minutes=(n * 947) % (14 * 24 * 60))
     rec = {
         "candidate_id": f"C{n:04d}", "name": name,
         "email": f"candidate{n}@example.net", "phone": f"+1-212-555-{n:04d}", "submitted_at": iso(submitted),
-        "github_username": username, "portfolio_url": f"https://portfolio-{n}.example.dev" if n % 4 else "",
+        "github_username": username, "portfolio_url": f"https://candidate-{n}-portfolio.dev" if n % 4 else "",
         "education": {"school": SCHOOLS[n % len(SCHOOLS)], "degree": "BS " + ("Computer Science" if role == "Software Engineer" else "Data Science"), "year": start_year},
         "experience": [{"company": COMPANIES[n % len(COMPANIES)], "title": role, "start": f"{start_year}-0{1+n%8}", "end": "2024-12", "bullets": bullets}],
         "skills": skills, "summary": summary, "pdf_path": None, "seed_tag": tag,
@@ -86,10 +86,17 @@ def template_candidate(n: int, tag: str, bullets: list[str]) -> dict:
     rec["experience"][0]["bullets"] = list(bullets)
     rec["skills"] = ["Python", "SQL", "Machine Learning", "Spark", "AWS", "Airflow"] + random.sample(["Pandas", "PyTorch", "Statistics"], 2)
     if tag == "cluster_a":
+        rec["experience"][0]["company"] = "Meridian Labs"
+        rec["experience"][0]["start"] = "2018-06"
+        rec["skills"] = ["Python", "SQL", "Machine Learning", "Spark", "AWS", "Airflow", "Pandas", "PyTorch"]
+        rec["education"] = {"school": "State University", "degree": "BS Data Science", "year": 2018}
         rec["portfolio_url"] = f"https://{rec['github_username'] or 'candidate'}.devfolio-pro.site"
         rec["submitted_at"] = iso(BASE + timedelta(days=5, minutes=(n * 7) % 35))
         rec["summary"] = "Impact-driven data scientist delivering production models from ambiguous business problems."
     elif tag == "cluster_b":
+        rec["experience"][0]["company"] = "Cobalt Analytics"
+        rec["experience"][0]["start"] = "2019-06"
+        rec["skills"] = ["Python", "SQL", "Machine Learning", "Spark", "AWS", "Airflow", "Pandas", "Statistics"]
         rec["portfolio_url"] = f"https://showcase-{n}.{['io','dev','net'][n%3]}"
         rec["submitted_at"] = iso(BASE + timedelta(days=8, minutes=(n * 11) % 50))
         rec["summary"] = "Evidence-led analytics professional focused on trusted metrics and clear decisions."
@@ -131,7 +138,7 @@ def github_record(rec: dict) -> dict | None:
 
 
 def render_pdf(rec: dict, path: Path, payload: str | None = None, mode: int = 0) -> None:
-    c = canvas.Canvas(str(path), pagesize=letter)
+    c = canvas.Canvas(str(path), pagesize=letter, invariant=1)
     y = 750
     c.setFont("Helvetica-Bold", 15); c.drawString(50, y, rec["name"]); y -= 25
     c.setFont("Helvetica", 9)
