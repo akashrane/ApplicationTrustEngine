@@ -48,7 +48,7 @@ def trust_confidence(p_score: int, anomaly: int, coordination: int, claims: list
     trust = round(0.55 * p_score + 0.25 * (100 - anomaly) + 0.20 * (100 - coordination))
     if contradicted or anomaly >= 75 or coordination >= 70:
         return "LOW", trust
-    if p_score >= 60 and anomaly < 60 and coordination < COORDINATION_FLAG_THRESHOLD:
+    if p_score >= 60 and anomaly < 75 and coordination < COORDINATION_FLAG_THRESHOLD:
         return "HIGH", trust
     return "MEDIUM", trust
 
